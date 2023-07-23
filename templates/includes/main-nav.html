@@ -17,10 +17,10 @@
                 Phones
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="phones-link">
-                <a href="" class="dropdown-item">iPhone</a>
-                <a href="" class="dropdown-item">Samsung</a>
-                <a href="" class="dropdown-item">Sony</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Phones</a>
+                <a href="{% url 'products' %}?category=iphone" class="dropdown-item">iPhone</a>
+                <a href="{% url 'products' %}?category=samsung" class="dropdown-item">Samsung</a>
+                <a href="{% url 'products' %}?category=sony" class="dropdown-item">Sony</a>
+                <a href="{% url 'products' %}?category=iphone,samsung,sony" class="dropdown-item">All Phones</a>
             </div>
         </li>
 
@@ -29,9 +29,9 @@
                 Laptops
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="laptops-link">
-                <a href="" class="dropdown-item">MacBooks</a>
-                <a href="" class="dropdown-item">Asus</a>
-                <a href="" class="dropdown-item">All Laptops</a>
+                <a href="{% url 'products' %}?category=macbook" class="dropdown-item">MacBooks</a>
+                <a href="{% url 'products' %}?category=asus" class="dropdown-item">Asus</a>
+                <a href="{% url 'products' %}?category=macbook,asus" class="dropdown-item">All Laptops</a>
             </div>
         </li>
 
@@ -40,10 +40,10 @@
                 Consoles
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="consoles-link">
-                <a href="" class="dropdown-item">Playstation</a>
-                <a href="" class="dropdown-item">Xbox</a>
-                <a href="" class="dropdown-item">Nintendo</a>
-                <a href="" class="dropdown-item">All Consoles</a>
+                <a href="{% url 'products' %}?category=playstation" class="dropdown-item">Playstation</a>
+                <a href="{% url 'products' %}?category=xbox" class="dropdown-item">Xbox</a>
+                <a href="{% url 'products' %}?category=nintendo" class="dropdown-item">Nintendo</a>
+                <a href="{% url 'products' %}?category=playstation,xbox,nintendo" class="dropdown-item">All Consoles</a>
             </div>
         </li>
     </ul>
