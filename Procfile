@@ -1,0 +1,1 @@
+web: gunicorn tech_things.wsgi:application
