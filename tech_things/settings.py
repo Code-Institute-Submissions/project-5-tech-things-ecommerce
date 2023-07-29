@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-t#gcg768grg8lt#x48x4lgswf4ww0i^c77!_+8h6q9(r*xhfig
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-fwiffoplays-project5tec-j7yj8g21f53.ws-eu102.gitpod.io'
+    ['ci-project-5-tech-things.herokuapp.com', 'localhost']
 ]
 
 
